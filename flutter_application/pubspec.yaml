@@ -1,0 +1,38 @@
+name: flutter_application
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.2 <4.0.0'
+flutter_icons:
+  google: ^0.2.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_vector_icons: ^1.0.0
+  carousel_slider:  ^4.2.1
+  cupertino_icons: ^1.0.8
+
+  shared_preferences: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/images/01.png
+    - lib/assets/images/02.png
+    - lib/assets/images/03.png
+    - lib/assets/images/04.png
+    - lib/assets/logos/Group.png
+    - lib/assets/logos/Community.png
+    - lib/assets/logos/Nutrition.png
+    - lib/assets/logos/Work Out.png
+    - lib/assets/logos/fitbody.png
